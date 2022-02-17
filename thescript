@@ -42,7 +42,7 @@ local Title_2 = Instance.new("TextLabel")
 --Properties:
 
 SniffHub.Name = "SniffHub"
-SniffHub.Parent = game.Workspace
+SniffHub.Parent = game.Players.LocalPlayer.PlayerGui
 
 OpenClose.Name = "OpenClose"
 OpenClose.Parent = SniffHub
